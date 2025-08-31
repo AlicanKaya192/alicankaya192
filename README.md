@@ -7,7 +7,7 @@
 ## 🔗 Connect with Me  
 
 <p align="center">
-  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/Portfolio- alican--kaya.com-orange?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/ alican--kaya.com-red?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" /></a>
 </p>
