@@ -1,27 +1,83 @@
+# 👋 Hi, I'm Alican Kaya  
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alican-kaya-881650234/)
-[![Medium](https://img.shields.io/badge/Medium-%2312100E.svg?logo=medium&logoColor=white)](https://medium.com/@alicankaya268)
-
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MSSQL](https://img.shields.io/badge/mssql-%23CC2927.svg?style=for-the-badge&logo=microsoftsqlserver&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
-# <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=alicankaya192&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=alicankaya192&theme=highcontrast&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=alicankaya192&theme=highcontrast&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-![](https://github.com/BEPb/BEPb/raw/output/github-contribution-grid-snake.svg)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=alicankaya192&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=alicankaya192&limit=5&theme=highcontrast&combine_all_yearly_contributions=true)
+💻 AI & Data Scientist | 🌐 Full Stack Developer in Progress | 📚 Lifelong Learner  
 
 ---
-[![](https://visitcount.itsvg.in/api?id=alicankaya192&icon=2&color=2)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🔗 Connect with Me  
+
+<p align="center">
+  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/Portfolio- alican--kaya.com-orange?style=for-the-badge&logo=firefox&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://medium.com/"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" /></a>
+</p>
+
+---
+
+## 🛠 Tech Stack  
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="50" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cisco/cisco-original.svg" width="50" height="50"/>
+</p>
+
+---
+
+## 📊 GitHub Stats  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight" alt="Top Languages" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=alicankaya192&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+---
+
+## 🏆 GitHub Trophies  
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=alicankaya192&theme=tokyonight&no-frame=true&margin-w=15" />
+</p>
+
+---
+
+## 💡 Quote  
+
+<p align="center">
+  <a href="https://github.com/piyushsuthar/github-readme-quotes">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
+  </a>
+</p>
+
+---
+
+## 📌 Top Contributed Repositories  
+
+<p align="center">
+  <a href="https://github.com/alicankaya192/CSharpNotes">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=CSharpNotes&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/alicankaya192/Hotel-Booking-and-Management-Platform">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=Hotel-Booking-and-Management-Platform&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/alicankaya192/App-Downloader">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=App-Downloader&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/alicankaya192/MatricesCalculator">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=MatricesCalculator&theme=tokyonight" />
+  </a>
+</p>
+
+---
+
+⭐️ From [Alican Kaya](https://alican-kaya.com/)  
