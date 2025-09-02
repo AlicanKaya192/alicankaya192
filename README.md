@@ -7,9 +7,7 @@
 ## 🔗 Connect with Me  
 
 <p align="center">
-<a href="https://alican-kaya.com/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/alican--kaya.com-red?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
+  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/ alican--kaya.com-red?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" /></a>
 </p>
@@ -91,4 +89,4 @@
 
 ---
 
-⭐️ From [Alican Kaya](https://alican-kaya.com/)
+⭐️ From [Alican Kaya](https://alican-kaya.com/)  bu readme de Alican Kaya linkine tıklandığında github ı kapatarak açıyor ayrı sayfa da açmasını istiyorum
