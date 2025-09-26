@@ -88,5 +88,3 @@
 </p>
 
 ---
-
-⭐️ From [Alican Kaya](https://alican-kaya.com/)  bu readme de Alican Kaya linkine tıklandığında github ı kapatarak açıyor ayrı sayfa da açmasını istiyorum
