@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Alican Kaya  
 
-💻 AI & Data Scientist | 🌐 Full Stack Developer in Progress | 📚 Lifelong Learner  
+💻 AI & Data Scientist | 📚 Lifelong Learner  
 
 ---
 
