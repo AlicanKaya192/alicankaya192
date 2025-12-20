@@ -26,7 +26,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" title="CSS3"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" title="JavaScript"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width="50" height="50" title="TailwindCSS"/>
-  <img src="https://cdn.jsdelivr.gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" title="MySQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" title="MySQL"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="50" height="50" title="MSSQL"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" height="50" title="PostgreSQL"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50" height="50" title="MongoDB"/>
@@ -38,7 +38,7 @@
 
 ---
 
-## 📊 GitHub Stats  
+## 📊 GitHub Stats & Activity  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180"/>
@@ -46,25 +46,7 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=alicankaya192&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
-## 🏆 GitHub Trophies  
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=alicankaya192&theme=tokyonight&no-frame=false&margin-w=15" alt="GitHub Trophies" />
-  </a>
-</p>
-
----
-
-## 💡 Quote  
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alicankaya192&theme=react&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 </p>
 
 ---
@@ -81,6 +63,14 @@
   <a href="https://github.com/AlicanKaya192/LeetCode">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=LeetCode&theme=tokyonight" />
   </a>
+</p>
+
+---
+
+## 💡 Quote  
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
 </p>
 
 ---
