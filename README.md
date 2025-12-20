@@ -46,7 +46,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alicankaya192&theme=react&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alicankaya192&theme=radical&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 </p>
 
 ---
