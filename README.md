@@ -7,9 +7,9 @@
 ## 🔗 Connect with Me  
 
 <p align="center">
-  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/ alican--kaya.com-red?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://medium.com/"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" /></a>
+  <a href="https://alican-kaya.com/"><img src="https://img.shields.io/badge/alican--kaya.com-red?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/alicankaya192/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://medium.com/@alicankaya192"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" /></a>
 </p>
 
 ---
@@ -20,7 +20,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50" height="50" title="C"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="50" height="50" title="C++"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="50" height="50" title="C#"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50" title="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" title="Python"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" width="50" height="50" title=".NET"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" title="HTML5"/>
@@ -55,7 +54,7 @@
 ## 🏆 GitHub Trophies  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=alicankaya192&theme=tokyonight&no-frame=true&margin-w=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=alicankaya192&theme=tokyonight&column=7&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -63,9 +62,7 @@
 ## 💡 Quote  
 
 <p align="center">
-  <a href="https://github.com/piyushsuthar/github-readme-quotes">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
-  </a>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Quote"/>
 </p>
 
 ---
@@ -73,17 +70,14 @@
 ## 📌 Top Contributed Repositories  
 
 <p align="center">
+  <a href="https://github.com/AlicanKaya192/Data-Science-RoadMap">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=Data-Science-RoadMap&theme=tokyonight" />
+  </a>
   <a href="https://github.com/alicankaya192/CSharpNotes">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=CSharpNotes&theme=tokyonight" />
   </a>
-  <a href="https://github.com/alicankaya192/Hotel-Booking-and-Management-Platform">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=Hotel-Booking-and-Management-Platform&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/alicankaya192/App-Downloader">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=App-Downloader&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/alicankaya192/MatricesCalculator">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=MatricesCalculator&theme=tokyonight" />
+  <a href="https://github.com/AlicanKaya192/LeetCode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=LeetCode&theme=tokyonight" />
   </a>
 </p>
 
