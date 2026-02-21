@@ -4,6 +4,18 @@
 
 ---
 
+## 🚀 About Me
+
+I am a Computer Science student specializing in Artificial Intelligence and Data Science, with a solid foundation in software engineering. I combine analytical thinking with engineering discipline to design data-driven solutions that are both technically sound and practically impactful.
+
+I actively work on machine learning, predictive modeling, and data analytics using the Python ecosystem (Pandas, NumPy, Scikit-learn, Statsmodels) and SQL technologies. I am capable of managing end-to-end data workflows, from data preprocessing and feature engineering to model development and evaluation.
+
+With additional experience in C++, C#, and .NET, I approach AI solutions from a systems and scalability perspective, bridging software engineering with intelligent systems.
+
+I am particularly interested in time series analysis, recommender systems, and applied machine learning for real-world problems. My goal is to build scalable, measurable, and high-impact AI-driven solutions while continuously deepening my technical expertise.
+
+---
+
 ## 🔗 Connect with Me  
 
 <p align="center">
