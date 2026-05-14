@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:2c5364&height=160&section=header&text=Alican%20Kaya&fontSize=42&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Scientist%20%7C%20CS%20Student%20%7C%20ML%20Engineer&descAlignY=58&descSize=16)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:93c5fd,50:3b82f6,100:1d4ed8&height=160&section=header&text=Alican%20Kaya&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20and%20Data%20Scientist%20%7C%20CS%20Student%20%7C%20ML%20Engineer&descAlignY=58&descSize=16)
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 [![Website](https://img.shields.io/badge/🌐%20Portfolio-0d1117?style=for-the-badge&logoColor=58A6FF)](https://alican-kaya.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alicankaya192/)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alicankaya192)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alicankaya268)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alicankaya192)
 
 </div>
@@ -81,15 +81,48 @@ class AlicanKaya:
 
 ## 🚀 Featured Repositories
 
-<div align="center">
-
-[![Data Science RoadMap](https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=Data-Science-RoadMap&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8)](https://github.com/AlicanKaya192/Data-Science-RoadMap)
-&nbsp;
-[![CSharp Notes](https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=CSharpNotes&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8)](https://github.com/alicankaya192/CSharpNotes)
-&nbsp;
-[![LeetCode](https://github-readme-stats.vercel.app/api/pin/?username=alicankaya192&repo=LeetCode&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8)](https://github.com/AlicanKaya192/LeetCode)
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📊 Data Science RoadMap</h3>
+      <p>A comprehensive roadmap covering the essential topics, tools, and resources for becoming a Data Scientist — from statistics to machine learning and beyond.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+      </p>
+      <a href="https://github.com/AlicanKaya192/Data-Science-RoadMap"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+    </td>
+    <td width="50%">
+      <h3>📝 CSharp Notes</h3>
+      <p>Structured C# notes covering fundamentals to advanced topics including OOP, .NET framework, and practical code examples for quick reference.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
+        <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+      </p>
+      <a href="https://github.com/alicankaya192/CSharpNotes"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🧩 LeetCode</h3>
+      <p>My collection of LeetCode problem solutions with clean, well-commented code covering arrays, trees, dynamic programming, graphs, and more.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+      </p>
+      <a href="https://github.com/AlicanKaya192/LeetCode"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+    </td>
+    <td width="50%">
+      <h3>🌱 More Coming Soon...</h3>
+      <p>Currently working on new ML projects including time series forecasting and recommender system implementations. Stay tuned!</p>
+      <p>
+        <img src="https://img.shields.io/badge/Statsmodels-3b82f6?style=flat-square"/>
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -97,8 +130,8 @@ class AlicanKaya:
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
 
 <br/><br/>
 
