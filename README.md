@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Machine+Learning+%26+Predictive+Modeling+%F0%9F%9A%80;Time+Series+Analysis;Recommender+Systems;End-to-End+Data+Pipelines;Python+%7C+SQL+%7C+Scikit-learn+%7C+Pandas;Always+learning%2C+always+building+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=680&lines=Time+Series+Forecasting+%26+Predictive+Modeling;Recommender+Systems+%26+Collaborative+Filtering;End-to-End+ML+Pipelines+%7C+Scikit-learn+%7C+Pandas;Statistical+Modeling+%7C+Statsmodels+%7C+NumPy;Python+%7C+SQL+%7C+C%2B%2B+%7C+C%23;Always+learning%2C+always+building+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
@@ -12,6 +12,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alicankaya192/)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@alicankaya268)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alicankaya192)
+[![Profile Views](https://komarev.com/ghpvc/?username=alicankaya192&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS)](https://github.com/alicankaya192)
 
 </div>
 
@@ -126,6 +127,18 @@ class AlicanKaya:
 
 ---
 
+## ⏱️ Coding Activity
+
+<div align="center">
+
+[![Wakatime Stats](https://github-readme-stats-sigma-five.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8)](https://wakatime.com/@alicankaya192)
+
+</div>
+
+> 💡 _Powered by [WakaTime](https://wakatime.com) — install the VS Code extension to start tracking automatically._
+
+---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
@@ -164,11 +177,20 @@ class AlicanKaya:
 ## 🌱 What I'm Working On
 
 ```
-📌 Building robust time series forecasting models
-📌 Designing scalable recommender system architectures
+📌 Data Science RoadMap — A structured learning path from statistics to advanced ML
+📌 21 Farklı Python Projeleri — 21 hands-on Python projects covering real-world use cases
 📌 Improving end-to-end ML pipeline quality & reproducibility
-📌 Exploring advanced feature engineering techniques
+📌 Exploring advanced feature engineering & model explainability techniques
 ```
+
+---
+
+## 📝 Latest Medium Articles
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+> ✍️ _[Read all articles on Medium →](https://medium.com/@alicankaya268)_
 
 ---
 
