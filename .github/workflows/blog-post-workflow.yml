@@ -1,0 +1,18 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    # Her gün saat 00:00 UTC'de çalışır
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update README with latest Medium posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://medium.com/feed/@alicankaya268"
+          max_post_count: 5
