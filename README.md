@@ -131,8 +131,7 @@ class AlicanKaya:
 
 <div align="center">
 
-[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8)](https://wakatime.com/@alicankaya192)
-
+[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8&v=1)](https://wakatime.com/@alicankaya192)
 </div>
 
 ---
