@@ -86,13 +86,37 @@ class AlicanKaya:
   <tr>
     <td width="50%">
       <h3>📊 Data Science RoadMap</h3>
-      <p>A comprehensive roadmap covering the essential topics, tools, and resources for becoming a Data Scientist — from statistics to machine learning and beyond.</p>
+      <p>A comprehensive roadmap covering Data Science fundamentals, Python applications, and industry study notes — from statistics all the way to Machine Learning.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Statistics-58A6FF?style=flat-square"/>
       </p>
       <a href="https://github.com/AlicanKaya192/Data-Science-RoadMap"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+    </td>
+    <td width="50%">
+      <h3>🌍 Global CO₂ Analysis & Future Projections</h3>
+      <p>Comprehensive data analysis of global carbon emissions from the Industrial Revolution to the present, with ML-based future projections. Developed as part of Miuul Data Science Bootcamp.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
+      </p>
+      <a href="https://github.com/Miuul-Project/Global-CO--Analysis---Future-Projections"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🐍 21 Farklı Python Projesi</h3>
+      <p>A collection of 21 diverse hands-on Python projects covering real-world use cases — from automation scripts to data processing and algorithm implementations.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Automation-58A6FF?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Algorithms-2ea44f?style=flat-square"/>
+      </p>
+      <a href="https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
     </td>
     <td width="50%">
       <h3>📝 CSharp Notes</h3>
@@ -100,27 +124,9 @@ class AlicanKaya:
       <p>
         <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
         <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OOP-58A6FF?style=flat-square"/>
       </p>
       <a href="https://github.com/alicankaya192/CSharpNotes"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🧩 LeetCode</h3>
-      <p>My collection of LeetCode problem solutions with clean, well-commented code covering arrays, trees, dynamic programming, graphs, and more.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-      </p>
-      <a href="https://github.com/AlicanKaya192/LeetCode"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
-    </td>
-    <td width="50%">
-      <h3>🌱 More Coming Soon...</h3>
-      <p>Currently working on new ML projects including time series forecasting and recommender system implementations. Stay tuned!</p>
-      <p>
-        <img src="https://img.shields.io/badge/Statsmodels-3b82f6?style=flat-square"/>
-        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-      </p>
     </td>
   </tr>
 </table>
