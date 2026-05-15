@@ -131,11 +131,9 @@ class AlicanKaya:
 
 <div align="center">
 
-[![Wakatime Stats](https://github-readme-stats-sigma-five.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8)](https://wakatime.com/@alicankaya192)
+[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8)](https://wakatime.com/@alicankaya192)
 
 </div>
-
-> 💡 _Powered by [WakaTime](https://wakatime.com) — install the VS Code extension to start tracking automatically._
 
 ---
 
@@ -143,8 +141,8 @@ class AlicanKaya:
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
 
 <br/><br/>
 
