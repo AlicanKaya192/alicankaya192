@@ -129,10 +129,8 @@ class AlicanKaya:
 
 ## ⏱️ Coding Activity
 
-<div align="center">
-
-[![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=alicankaya192&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&layout=compact&langs_count=8&v=1)](https://wakatime.com/@alicankaya192)
-</div>
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
@@ -140,8 +138,8 @@ class AlicanKaya:
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=alicankaya192&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=94a3b8&include_all_commits=true&count_private=true" />
+<img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=alicankaya192&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=94a3b8&langs_count=8" />
 
 <br/><br/>
 
@@ -176,8 +174,7 @@ class AlicanKaya:
 ```
 📌 Data Science RoadMap — A structured learning path from statistics to advanced ML
 📌 21 Farklı Python Projeleri — 21 hands-on Python projects covering real-world use cases
-📌 Improving end-to-end ML pipeline quality & reproducibility
-📌 Exploring advanced feature engineering & model explainability techniques
+
 ```
 
 ---
@@ -185,7 +182,6 @@ class AlicanKaya:
 ## 📝 Latest Medium Articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2)
 <!-- BLOG-POST-LIST:END -->
 
 > ✍️ _[Read all articles on Medium →](https://medium.com/@alicankaya268)_
