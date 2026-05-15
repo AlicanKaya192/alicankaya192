@@ -127,11 +127,6 @@ class AlicanKaya:
 
 ---
 
-## ⏱️ Coding Activity
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
 ---
 
 ## 📊 GitHub Statistics
@@ -174,7 +169,8 @@ class AlicanKaya:
 ```
 📌 Data Science RoadMap — A structured learning path from statistics to advanced ML
 📌 21 Farklı Python Projeleri — 21 hands-on Python projects covering real-world use cases
-
+📌 Improving end-to-end ML pipeline quality & reproducibility
+📌 Exploring advanced feature engineering & model explainability techniques
 ```
 
 ---
