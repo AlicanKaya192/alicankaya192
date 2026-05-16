@@ -184,6 +184,7 @@ class AlicanKaya:
 ## 📝 Latest Medium Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2)
 <!-- BLOG-POST-LIST:END -->
 
 > ✍️ _[Read all articles on Medium →](https://medium.com/@alicankaya268)_
