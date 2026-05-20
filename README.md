@@ -119,19 +119,18 @@ class AlicanKaya:
       <a href="https://github.com/AlicanKaya192/21-Farkli-Python-Projeleri"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
     </td>
     <td width="50%">
-      <h3>📝 CSharp Notes</h3>
-      <p>Structured C# notes covering fundamentals to advanced topics including OOP, .NET framework, and practical code examples for quick reference.</p>
+      <h3>😊 World Happiness Report 2025</h3>
+      <p>Comprehensive EDA and visualization of the World Happiness Report 2025 — analyzing global rankings, regional distributions, key happiness factors, and detecting wealth-happiness paradox outliers.</p>
       <p>
-        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white"/>
-        <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OOP-58A6FF?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
+        <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white"/>
       </p>
-      <a href="https://github.com/alicankaya192/CSharpNotes"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
+      <a href="https://github.com/AlicanKaya192/World-Happiness-Report-2025"><img src="https://img.shields.io/badge/View%20Repo-0d1117?style=flat-square&logo=github&logoColor=white"/></a>
     </td>
   </tr>
 </table>
-
----
 
 ---
 
@@ -184,7 +183,6 @@ class AlicanKaya:
 ## 📝 Latest Medium Articles
 
 <!-- BLOG-POST-LIST:START -->
-- [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2)
 <!-- BLOG-POST-LIST:END -->
 
 > ✍️ _[Read all articles on Medium →](https://medium.com/@alicankaya268)_
