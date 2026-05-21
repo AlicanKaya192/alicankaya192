@@ -183,6 +183,8 @@ class AlicanKaya:
 ## 📝 Latest Medium Articles
 
 <!-- BLOG-POST-LIST:START -->
+- [I Analyzed the 2025 World Happiness Report — Here’s What the Data Actually Shows](https://medium.com/@alicankaya268/i-analyzed-the-2025-world-happiness-report-heres-what-the-data-actually-shows-1ca8716036ae?source=rss-a7daeaff99de------2)
+- [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2)
 <!-- BLOG-POST-LIST:END -->
 
 > ✍️ _[Read all articles on Medium →](https://medium.com/@alicankaya268)_
