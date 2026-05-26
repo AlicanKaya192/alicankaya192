@@ -48,7 +48,7 @@ class AlicanKaya:
 ### 💡 Languages & Core
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,cs,c,js,html,css&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,cs,c" />
 </div>
 
 ### 🤖 AI / Data Science
@@ -69,7 +69,7 @@ class AlicanKaya:
 ### 🌐 Web & Frameworks
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet,tailwind" />
+  <img src="https://skillicons.dev/icons?i=dotnet,html,css,tailwind,js&theme=dark&perline=10" />
 </div>
 
 ### 🧰 Tools & Environment
