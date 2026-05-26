@@ -69,7 +69,7 @@ class AlicanKaya:
 ### 🌐 Web & Frameworks
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet,html,css,tailwind,js&theme=dark&perline=10" />
+  <img src="https://skillicons.dev/icons?i=dotnet,tailwind" />
 </div>
 
 ### 🧰 Tools & Environment
