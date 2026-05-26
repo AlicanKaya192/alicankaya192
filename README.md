@@ -57,7 +57,7 @@ class AlicanKaya:
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,jupyter&theme=dark&perline=10" />
 </div>
 <div align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,matplotlib,statsmodels&theme=dark" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=pandas,numpy,matplotlib,statsmodels,seaborn,jupyter&theme=dark" />
 </div>
 
 ### 🗄️ Databases
