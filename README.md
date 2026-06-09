@@ -102,6 +102,6 @@ I write about data science, AI industry trends, and things I learn along the way
 
 <div align="center">
 
-📬 bir şey sormak, birlikte çalışmak ya da sadece merhaba demek istersen → [alicankaya268@gmail.com](mailto:alicankaya268@gmail.com)
+📬 If you want to ask something, work together, or just say hello → [alicankaya268@gmail.com](mailto:alicankaya268@gmail.com)
 
 </div>
