@@ -14,15 +14,6 @@ i don't just train models — i obsess over the full pipeline: messy data in, ac
 
 ---
 
-#### What I Actually Work With
-
-**daily drivers** → Python · SQL · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib
-**when needed** → PyTorch · TensorFlow · OpenCV · C++ · C# · .NET
-**data layer** → PostgreSQL · MySQL · MSSQL · MongoDB
-**environment** → Linux · Git · Jupyter · VS Code · Figma
-
----
-
 #### Stuff I've Built
 
 <table>
@@ -86,9 +77,9 @@ I write about data science, AI industry trends, and things I learn along the way
 
 #### Right Now
 
-- 🔬 ML fundamentals'ı derinleştiriyorum — özellikle feature engineering ve model explainability
-- 🛠️ End-to-end pipeline'ların kalitesini ve tekrar üretilebilirliğini artırma üzerinde çalışıyorum
-- 🤝 Staj ve araştırma işbirliklerine açığım
+- 🔬 Deepening my ML fundamentals — especially feature engineering and model explainability
+- 🛠️ Working on improving the quality and reproducibility of end-to-end pipelines
+- 🤝 Open to internships and research collaborations
 
 ---
 
