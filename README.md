@@ -1,3 +1,7 @@
+<a href="https://github.com/alicankaya192/alicankaya192">
+  <img alt="GitHub Profile README" src="https://raw.githubusercontent.com/alicankaya192/alicankaya192/main/dark.svg">
+</a>
+
 ### Hey, I'm Alican 👋
 
 i build things with data. currently studying CS and working at the intersection of **machine learning**, **statistical modeling**, and **real-world problem solving**.
@@ -12,9 +16,9 @@ i don't just train models — i obsess over the full pipeline: messy data in, ac
 
 #### What I Actually Work With
 
-**daily drivers** → Python · SQL · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib  
-**when needed** → PyTorch · TensorFlow · OpenCV · C++ · C# · .NET  
-**data layer** → PostgreSQL · MySQL · MSSQL · MongoDB  
+**daily drivers** → Python · SQL · Pandas · NumPy · Scikit-learn · Statsmodels · Matplotlib
+**when needed** → PyTorch · TensorFlow · OpenCV · C++ · C# · .NET
+**data layer** → PostgreSQL · MySQL · MSSQL · MongoDB
 **environment** → Linux · Git · Jupyter · VS Code · Figma
 
 ---
@@ -72,7 +76,7 @@ I write about data science, AI industry trends, and things I learn along the way
 
 <!-- BLOG-POST-LIST:START -->
 - [The Uncomfortable Truth About AI Salaries &lpar;From 1,500 Real Job Postings&rpar;](https://medium.com/@alicankaya268/the-uncomfortable-truth-about-ai-salaries-from-1-500-real-job-postings-19ac76bd6f53?source=rss-a7daeaff99de------2)
-- [I Analyzed the 2025 World Happiness Report — Here’s What the Data Actually Shows](https://medium.com/@alicankaya268/i-analyzed-the-2025-world-happiness-report-heres-what-the-data-actually-shows-1ca8716036ae?source=rss-a7daeaff99de------2)
+- [I Analyzed the 2025 World Happiness Report — Here's What the Data Actually Shows](https://medium.com/@alicankaya268/i-analyzed-the-2025-world-happiness-report-heres-what-the-data-actually-shows-1ca8716036ae?source=rss-a7daeaff99de------2)
 - [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2)
 <!-- BLOG-POST-LIST:END -->
 
