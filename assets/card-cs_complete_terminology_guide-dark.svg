@@ -6,7 +6,7 @@
 <text x="44" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#e6edf3">CS Terminology Guide</text>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#9198a1">
   <path transform="translate(371 22) scale(0.875)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#9198a1"/>
-  <text x="400" y="34" text-anchor="end">2</text>
+  <text x="400" y="34" text-anchor="end">3</text>
 </g>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" fill="#9198a1">
   <text x="20" y="66">350+ essential computer science terms across 26</text>
