@@ -12,6 +12,8 @@
   <a href="mailto:alicankaya268@gmail.com"><b>Email</b></a>
 </p>
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/AlicanKaya192/badge.svg)](https://hub.xerj.org/contributors/AlicanKaya192)
+
 ## About
 
 I'm a Computer Science undergraduate working where data science, machine learning and software engineering meet. I enjoy taking a messy dataset all the way to a clear answer, and I turn what I learn into open resources other people can build on: roadmaps, courses, reference notes and desktop tools.
