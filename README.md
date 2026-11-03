@@ -42,15 +42,6 @@ I'm a Computer Science undergraduate working where data science, machine learnin
   <img alt="Languages: Python, SQL, C#, C++, Java. Machine learning: scikit-learn, PyTorch, TensorFlow, Statsmodels. Data and analysis: pandas, NumPy, SciPy, Matplotlib, Jupyter. Databases: PostgreSQL, MySQL, SQL Server, MongoDB. Engineering: .NET, FastAPI, PySide6 / Qt, Docker, Git, Linux." src="https://raw.githubusercontent.com/AlicanKaya192/alicankaya192/main/assets/stack-light.svg" width="100%">
 </picture>
 
-## GitHub activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlicanKaya192/alicankaya192/main/assets/activity-dark.svg">
-  <img alt="Contributions, stars, repositories, followers and language breakdown" src="https://raw.githubusercontent.com/AlicanKaya192/alicankaya192/main/assets/activity-light.svg" width="100%">
-</picture>
-
-<sub>Refreshed daily by a GitHub Action.</sub>
-
 ## Latest writing
 
 <!-- BLOG-POST-LIST:START -->- [The Uncomfortable Truth About AI Salaries &lpar;From 1,500 Real Job Postings&rpar;](https://medium.com/@alicankaya268/the-uncomfortable-truth-about-ai-salaries-from-1-500-real-job-postings-19ac76bd6f53?source=rss-a7daeaff99de------2) <sub>· May 22, 2026</sub>
