@@ -44,7 +44,8 @@ I'm a Computer Science undergraduate working where data science, machine learnin
 
 ## Latest writing
 
-<!-- BLOG-POST-LIST:START -->- [Tek ajandan kurula: birbirine cevap veren yapay zekâ ajanları için bir orkestrasyon tasarımı](https://medium.com/@alicankaya268/tek-ajandan-kurula-birbirine-cevap-veren-yapay-zek%C3%A2-ajanlar%C4%B1-i%C3%A7in-bir-orkestrasyon-tasar%C4%B1m%C4%B1-d4f0c6856f4e?source=rss-a7daeaff99de------2) <sub>· Nov 6, 2026</sub>
+<!-- BLOG-POST-LIST:START -->- [I gave Claude Code a memory and put guards in front of it](https://medium.com/@alicankaya268/i-gave-claude-code-a-memory-and-put-guards-in-front-of-it-91d9b40238f4?source=rss-a7daeaff99de------2) <sub>· Nov 7, 2026</sub>
+- [Tek ajandan kurula: birbirine cevap veren yapay zekâ ajanları için bir orkestrasyon tasarımı](https://medium.com/@alicankaya268/tek-ajandan-kurula-birbirine-cevap-veren-yapay-zek%C3%A2-ajanlar%C4%B1-i%C3%A7in-bir-orkestrasyon-tasar%C4%B1m%C4%B1-d4f0c6856f4e?source=rss-a7daeaff99de------2) <sub>· Nov 6, 2026</sub>
 - [The Uncomfortable Truth About AI Salaries &lpar;From 1,500 Real Job Postings&rpar;](https://medium.com/@alicankaya268/the-uncomfortable-truth-about-ai-salaries-from-1-500-real-job-postings-19ac76bd6f53?source=rss-a7daeaff99de------2) <sub>· May 22, 2026</sub>
 - [I Analyzed the 2025 World Happiness Report — Here’s What the Data Actually Shows](https://medium.com/@alicankaya268/i-analyzed-the-2025-world-happiness-report-heres-what-the-data-actually-shows-1ca8716036ae?source=rss-a7daeaff99de------2) <sub>· May 20, 2026</sub>
 - [Prompt Injection: The Invisible Threat in the Age of Artificial Intelligence](https://medium.com/@alicankaya268/prompt-injection-the-invisible-threat-in-the-age-of-artificial-intelligence-7a5fbe84fad2?source=rss-a7daeaff99de------2) <sub>· Oct 27, 2025</sub>
