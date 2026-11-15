@@ -3,6 +3,7 @@
 // Live data comes from the GitHub API and Medium; static content lives in PROFILE below.
 // Run: node scripts/build-profile.mjs   (GITHUB_TOKEN is optional but avoids rate limits)
 
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -26,7 +27,8 @@ const PROFILE = {
     feed: "https://medium.com/feed/@alicankaya268",
     maxPosts: 5,
   },
-  flagship: [
+  // Every project card shares one layout: a small live chart on the left, text on the right.
+  projects: [
     {
       repo: "Odyssey",
       title: "Odyssey",
@@ -48,32 +50,34 @@ const PROFILE = {
       facts: ["Python to RL", "PDF review questions", "In Turkish"],
       motif: "modules",
     },
-  ],
-  featured: [
     {
       repo: "Deep_Learning_Path",
       title: "Deep Learning Path",
       blurb: "11 modules from scratch to advanced, with side-by-side NumPy, TensorFlow and PyTorch code.",
-      glyph: "layers",
+      facts: ["11 modules", "Zero to advanced", "NumPy, TF, PyTorch"],
+      motif: "layers",
     },
     {
       repo: "AI-Jobs-Market-2025-2026-Salaries",
       title: "AI Jobs Market 2025–26",
       blurb: "An analysis of global AI and LLM job postings: salary trends, the remote premium and top-paying skills.",
-      glyph: "bars",
+      facts: ["Global AI/LLM job ads", "Salary trends", "Remote work premium"],
+      motif: "bars",
     },
     {
       owner: "HandlingDataLargeSetLabProject",
       repo: "NYC-Taxi-Spark-Analysis",
       title: "NYC Taxi Spark Analysis",
       blurb: "A team project on about 20M NYC taxi trips, where three Spark optimizations cut run time by 24–42%.",
-      glyph: "zones",
+      facts: ["Team project", "PySpark + Spark SQL", "~20M trips"],
+      motif: "zones",
     },
     {
       repo: "CS_Complete_Terminology_Guide",
       title: "CS Terminology Guide",
       blurb: "A Turkish and English glossary of 350+ core CS terms, split into 26 chapters in learning order.",
-      glyph: "glossary",
+      facts: ["350+ terms", "Ordered as you learn", "Turkish + English"],
+      motif: "glossary",
       language: "Markdown",
     },
   ],
@@ -514,77 +518,107 @@ ${cells}
 </g>`;
 }
 
-const MOTIFS = { path: motifPath, gate: motifGate, modules: motifModules };
-
-// ---------------------------------------------------------------- small-card glyphs (48×48)
-
-function glyphLayers(t, x, y) {
-  const cols = [[12, 24, 36], [8, 19, 30, 41], [17, 31]].map((ys, c) => ys.map((yy) => [x + 8 + c * 16, y + yy]));
-  const edges = cols.slice(1).flatMap((col, c) => col.flatMap(([x2, y2]) =>
-    cols[c].map(([x1, y1]) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${t.muted}" stroke-opacity="0.45"/>`)));
-  const nodes = cols.flatMap((col, c) => col.map(([cx, cy]) => `<circle cx="${cx}" cy="${cy}" r="3.6" fill="${t.series[c]}"/>`));
-  return edges.join("") + nodes.join("");
+// Deep Learning Path: a small network whose layers light up one after another.
+function motifLayers(t, box) {
+  const layers = [3, 5, 5, 2];
+  const colX = (c) => box.x + 34 + c * ((box.w - 68) / (layers.length - 1));
+  const nodeY = (n, i) => box.y + box.h / 2 + (i - (n - 1) / 2) * 26;
+  const nodes = layers.map((n, c) => Array.from({ length: n }, (_, i) => [colX(c), nodeY(n, i)]));
+  const edges = nodes.slice(1).flatMap((col, c) => col.flatMap(([x2, y2]) => nodes[c].map(([x1, y1]) =>
+    `<line x1="${px(x1)}" y1="${px(y1)}" x2="${px(x2)}" y2="${px(y2)}" stroke="${t.muted}" stroke-opacity="0.3"/>`))).join("");
+  const cycle = 3.2;
+  const dots = nodes.flatMap((col, c) => col.map(([x, y]) => {
+    const color = t.series[Math.min(c, t.series.length - 1)];
+    const start = (c / layers.length).toFixed(2);
+    const peak = ((c + 0.6) / layers.length).toFixed(2);
+    return `<circle cx="${px(x)}" cy="${px(y)}" r="8" fill="${color}" fill-opacity="0.35" stroke="${color}" stroke-width="2">` +
+      `<animate attributeName="fill-opacity" values="0.35;0.35;1;0.35;0.35" keyTimes="0;${start};${peak};${Math.min(0.99, Number(peak) + 0.15).toFixed(2)};1" dur="${cycle}s" repeatCount="indefinite"/></circle>`;
+  })).join("\n");
+  return `${edges}\n${dots}`;
 }
 
-function glyphBars(t, x, y) {
-  return [16, 24, 20, 32, 38].map((h, i) =>
-    `<rect x="${x + 7 + i * 7.5}" y="${y + 42 - h}" width="5.5" height="${h}" rx="1.5" fill="${i === 4 ? t.series[1] : t.series[0]}" opacity="${i === 4 ? 1 : 0.55 + i * 0.1}"/>`).join("");
+// AI Jobs Market: a salary bar chart that grows in, the top bar highlighted.
+function motifBars(t, box) {
+  const values = [0.34, 0.46, 0.41, 0.58, 0.66, 0.79, 0.93];
+  const base = box.y + box.h - 26, top = box.y + 22;
+  const slot = (box.w - 44) / values.length;
+  const bars = values.map((v, i) => {
+    const h = v * (base - top);
+    const x = box.x + 22 + i * slot + slot * 0.18;
+    const color = i === values.length - 1 ? t.series[1] : t.series[0];
+    const begin = (0.2 + i * 0.12).toFixed(2);
+    return `<rect x="${px(x)}" y="${px(base)}" width="${px(slot * 0.64)}" height="0" rx="3" fill="${color}" fill-opacity="${i === values.length - 1 ? 1 : 0.55 + i * 0.06}">` +
+      `<animate attributeName="height" to="${px(h)}" begin="${begin}s" dur="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/>` +
+      `<animate attributeName="y" to="${px(base - h)}" begin="${begin}s" dur="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></rect>`;
+  }).join("\n");
+  return `<line x1="${box.x + 18}" y1="${base}" x2="${box.x + box.w - 18}" y2="${base}" stroke="${t.muted}" stroke-opacity="0.6"/>
+${bars}`;
 }
 
-function glyphZones(t, x, y) {
+// NYC Taxi: a heat grid of pickup zones that fills in from the busiest corner.
+function motifZones(t, box) {
+  const cols = 11, rows = 7, gap = 4;
+  const cw = (box.w - 36 - gap * (cols - 1)) / cols, ch = (box.h - 36 - gap * (rows - 1)) / rows;
   const rand = seededRandom(5);
   const cells = [];
-  for (let r = 0; r < 5; r++) {
-    for (let c = 0; c < 5; c++) {
-      const heat = Math.max(0.12, 1 - Math.hypot(c - 1.6, r - 2.2) / 3.4 + (rand() - 0.5) * 0.25);
-      cells.push(`<rect x="${x + 6 + c * 7.4}" y="${y + 6 + r * 7.4}" width="6.2" height="6.2" rx="1.2" fill="${t.series[0]}" opacity="${heat.toFixed(2)}"/>`);
+  for (let r = 0; r < rows; r++) {
+    for (let c = 0; c < cols; c++) {
+      const dist = Math.hypot((c - 3) / 4, (r - 2.5) / 2.6);
+      const heat = Math.min(1, Math.max(0.1, 1 - dist / 1.9 + (rand() - 0.5) * 0.25));
+      cells.push(`<rect x="${px(box.x + 18 + c * (cw + gap))}" y="${px(box.y + 18 + r * (ch + gap))}" width="${px(cw)}" height="${px(ch)}" rx="2.5" fill="${t.series[0]}" opacity="0">` +
+        `<animate attributeName="opacity" to="${heat.toFixed(2)}" begin="${(0.2 + dist * 0.6).toFixed(2)}s" dur="0.4s" fill="freeze"/></rect>`);
     }
   }
-  return cells.join("");
+  return cells.join("\n");
 }
 
-function glyphGlossary(t, x, y) {
-  return `<text x="${x + 24}" y="${y + 30}" text-anchor="middle" font-family="${SANS}" font-size="18" font-weight="800" fill="${t.series[0]}">A–Z</text>
-<line x1="${x + 10}" y1="${y + 38}" x2="${x + 38}" y2="${y + 38}" stroke="${t.muted}" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round"/>`;
+// CS Terminology Guide: an A–Z index where a highlight steps through the letters.
+function motifGlossary(t, box) {
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+  const perRow = 9, rows = Math.ceil(letters.length / perRow);
+  const stepX = (box.w - 40) / perRow, stepY = (box.h - 40) / rows;
+  const cycle = 7.8;
+  return letters.map((ch, i) => {
+    const x = box.x + 20 + (i % perRow) * stepX + stepX / 2;
+    const y = box.y + 20 + Math.floor(i / perRow) * stepY + stepY / 2;
+    const k = i / letters.length;
+    const on = (k + 0.5 / letters.length).toFixed(3);
+    const off = Math.min(0.999, k + 1.5 / letters.length).toFixed(3);
+    return `<rect x="${px(x - 13)}" y="${px(y - 15)}" width="26" height="28" rx="6" fill="${t.series[0]}" fill-opacity="0">` +
+      `<animate attributeName="fill-opacity" values="0;0;0.28;0;0" keyTimes="0;${k.toFixed(3)};${on};${off};1" dur="${cycle}s" repeatCount="indefinite"/></rect>` +
+      `<text x="${px(x)}" y="${px(y + 6)}" text-anchor="middle" font-family="${MONO}" font-size="17" font-weight="700" fill="${i % 7 === 0 ? t.series[1] : t.muted}">${ch}</text>`;
+  }).join("\n");
 }
 
-const GLYPHS = { layers: glyphLayers, bars: glyphBars, zones: glyphZones, glossary: glyphGlossary };
+const MOTIFS = {
+  path: motifPath, gate: motifGate, modules: motifModules,
+  layers: motifLayers, bars: motifBars, zones: motifZones, glossary: motifGlossary,
+};
 
-// ---------------------------------------------------------------- project cards
+// ---------------------------------------------------------------- cards
 
-function renderFlagship(t, item, repo) {
-  const W = 1000, H = 204, textX = 300;
-  const visual = { x: 16, y: 16, w: 256, h: H - 32 };
+// One card layout for the whole profile: visual panel on the left, text on the right.
+const CARD = { W: 1000, H: 196, textX: 300, visual: { x: 16, y: 16, w: 256, h: 164 } };
+
+function cardShell(t, title, visual) {
+  return `${frame(CARD.W, CARD.H, t)}
+${panel(CARD.visual, t)}
+${visual}
+<text x="${CARD.textX}" y="56" font-family="${SANS}" font-size="28" font-weight="700" letter-spacing="-0.4" fill="${t.text}">${esc(title)}</text>`;
+}
+
+function renderProject(t, item, repo) {
+  const { W, H, textX } = CARD;
   const language = item.language ?? repo?.language ?? "Markdown";
-  const blurb = wrap(item.blurb, charsFor(W - textX - 32, 17), 2);
-  const facts = item.facts.join("   ·   ");
-  return svg(W, H, `${item.title}: ${item.blurb}`, `
-${frame(W, H, t)}
-${panel(visual, t)}
-${MOTIFS[item.motif](t, visual)}
-<text x="${textX}" y="58" font-family="${SANS}" font-size="30" font-weight="700" letter-spacing="-0.5" fill="${t.text}">${esc(item.title)}</text>
-${starCount(t, W - 28, 52, repo?.stargazers_count ?? 0)}
-${textBlock(blurb, { x: textX, y: 94, size: 17, leading: 25, fill: t.muted })}
-<text x="${textX}" y="152" font-family="${SANS}" font-size="16" font-weight="600" fill="${t.accent}">${esc(facts)}</text>
-${languageTag(t, textX, 184, language)}
-<text x="${W - 28}" y="184" text-anchor="end" font-family="${MONO}" font-size="13" fill="${t.muted}">${esc(repo?.full_name ?? `${PROFILE.login}/${item.repo}`)}</text>`);
-}
-
-function renderCard(t, item, repo) {
-  const W = 490, H = 184;
-  const language = item.language ?? repo?.language ?? "Markdown";
-  const blurb = wrap(item.blurb, charsFor(W - 44, 15), 2);
+  const blurb = wrap(item.blurb, charsFor(W - textX - 40, 17), 2);
   const fullName = repo?.full_name ?? `${item.owner ?? PROFILE.login}/${item.repo}`;
-  const owner = truncate(fullName, Math.floor((W - 150) / (12 * MONO_EM)));
   return svg(W, H, `${item.title}: ${item.blurb}`, `
-${frame(W, H, t)}
-<rect x="20" y="20" width="48" height="48" rx="10" fill="${t.inset}" stroke="${t.border}"/>
-${GLYPHS[item.glyph](t, 20, 20)}
-<text x="84" y="42" font-family="${SANS}" font-size="19" font-weight="700" fill="${t.text}">${esc(item.title)}</text>
-<text x="84" y="62" font-family="${MONO}" font-size="12" fill="${t.muted}">${esc(owner)}</text>
-${starCount(t, W - 22, 42, repo?.stargazers_count ?? 0)}
-${textBlock(blurb, { x: 22, y: 104, size: 15, leading: 22, fill: t.muted })}
-${languageTag(t, 22, H - 22, language)}`);
+${cardShell(t, item.title, MOTIFS[item.motif](t, CARD.visual))}
+${starCount(t, W - 28, 50, repo?.stargazers_count ?? 0)}
+${textBlock(blurb, { x: textX, y: 90, size: 17, leading: 25, fill: t.muted })}
+<text x="${textX}" y="146" font-family="${SANS}" font-size="16" font-weight="600" fill="${t.accent}">${esc(item.facts.join("   ·   "))}</text>
+${languageTag(t, textX, H - 22, language)}
+<text x="${W - 28}" y="${H - 22}" text-anchor="end" font-family="${MONO}" font-size="13" fill="${t.muted}">${esc(truncate(fullName, 60))}</text>`);
 }
 
 // ---------------------------------------------------------------- post covers
@@ -653,27 +687,17 @@ function postTags(post, maxChars) {
   return line;
 }
 
-function renderFeaturedPost(t, post) {
-  const W = 1000, H = 240, textX = 352;
-  const title = wrap(post.title, charsFor(W - textX - 32, 28, "bold"), 3);
-  return svg(W, H, `Latest post: ${post.title} (${formatDate(post.date)})`, `
-${frame(W, H, t)}
-${renderCover(t, post, 0, { x: 16, y: 16, w: 310, h: H - 32 })}
-<text x="${textX}" y="52" font-family="${SANS}" font-size="15" fill="${t.muted}"><tspan fill="${t.accent}" font-weight="700">Latest</tspan>   ·   ${esc(postMeta(post))}</text>
-${textBlock(title, { x: textX, y: 98, size: 28, leading: 36, fill: t.text, weight: 700 })}
-<text x="${textX}" y="${H - 30}" font-family="${MONO}" font-size="13" fill="${t.muted}">${esc(postTags(post, 52))}</text>
-<text x="${W - 28}" y="${H - 30}" text-anchor="end" font-family="${SANS}" font-size="15" font-weight="600" fill="${t.accent}">Read on Medium →</text>`);
-}
-
-function renderPostCard(t, post, slot) {
-  const W = 490, H = 262;
-  const title = wrap(post.title, charsFor(W - 44, 20, "bold"), 3);
+function renderPost(t, post, slot) {
+  const { W, H, textX } = CARD;
+  const title = wrap(post.title, charsFor(W - textX - 40, 24, "bold"), 2);
+  const latest = slot === 0 ? `<tspan fill="${t.accent}" font-weight="700">Latest</tspan>   ·   ` : "";
   return svg(W, H, `${post.title} (${formatDate(post.date)})`, `
 ${frame(W, H, t)}
-${renderCover(t, post, slot, { x: 14, y: 14, w: W - 28, h: 82 })}
-<text x="22" y="126" font-family="${SANS}" font-size="14" fill="${t.muted}">${esc(postMeta(post))}</text>
-${textBlock(title, { x: 22, y: 158, size: 20, leading: 27, fill: t.text, weight: 700 })}
-<text x="22" y="${H - 20}" font-family="${MONO}" font-size="12" fill="${t.muted}">${esc(postTags(post, 62))}</text>`);
+${renderCover(t, post, slot, CARD.visual)}
+<text x="${textX}" y="48" font-family="${SANS}" font-size="15" fill="${t.muted}">${latest}${esc(postMeta(post))}</text>
+${textBlock(title, { x: textX, y: 88, size: 24, leading: 32, fill: t.text, weight: 700 })}
+<text x="${textX}" y="${H - 22}" font-family="${MONO}" font-size="13" fill="${t.muted}">${esc(postTags(post, 56))}</text>
+<text x="${W - 28}" y="${H - 22}" text-anchor="end" font-family="${SANS}" font-size="15" font-weight="600" fill="${t.accent}">Read on Medium →</text>`);
 }
 
 // ---------------------------------------------------------------- toolkit + activity
@@ -792,37 +816,51 @@ ${kpiSvg}
 <g font-family="${SANS}" font-size="12" fill="${t.muted}">${legendLangs}</g>`);
 }
 
-// ---------------------------------------------------------------- README writing block
+// ---------------------------------------------------------------- README blocks
 
-const WRITING_START = "<!-- MEDIUM:START -->";
-const WRITING_END = "<!-- MEDIUM:END -->";
-
-function pictureLink(post, slot, width) {
-  // The post id in the query string gives each new post a fresh image URL, so
-  // GitHub's image cache never shows an old card under a new link.
-  const src = (mode) => `${PROFILE.assetBase}/post-${slot}-${mode}.svg?v=${post.id}`;
-  return `<a href="${post.url}"><picture><source media="(prefers-color-scheme: dark)" srcset="${src("dark")}">` +
-    `<img alt="${esc(`${post.title} (${formatDate(post.date)})`)}" src="${src("light")}" width="${width}"></picture></a>`;
+function pictureLink(href, name, alt) {
+  const src = (mode) => `${PROFILE.assetBase}/${name}-${mode}.svg`;
+  return `<a href="${href}"><picture><source media="(prefers-color-scheme: dark)" srcset="${src("dark")}">` +
+    `<img alt="${esc(alt)}" src="${src("light")}" width="100%"></picture></a>`;
 }
 
-function writingBlock(posts) {
-  const [latest, ...rest] = posts;
-  return [
-    "<p>",
-    `  ${pictureLink(latest, 1, "100%")}`,
-    ...rest.map((post, i) => `  ${pictureLink(post, i + 2, "49%")}`),
-    "</p>",
-  ].join("\n");
+function pictureBlock(links) {
+  return ["<p>", ...links.map((link) => `  ${link}`), "</p>"].join("\n");
 }
 
-async function updateReadme(posts) {
+function replaceBlock(readme, name, body) {
+  const startTag = `<!-- ${name}:START -->`;
+  const endTag = `<!-- ${name}:END -->`;
+  const start = readme.indexOf(startTag);
+  const end = readme.indexOf(endTag);
+  if (start < 0 || end < start) throw new Error(`README.md needs the ${startTag} and ${endTag} markers`);
+  return `${readme.slice(0, start + startTag.length)}\n${body}\n${readme.slice(end)}`;
+}
+
+// GitHub caches README images by URL, so every image URL carries a hash of the
+// file's content: when a picture changes, its URL changes and the cache is skipped.
+async function stampImageVersions(readme) {
+  const pattern = new RegExp(`(${PROFILE.assetBase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}/([\\w.-]+\\.svg))(\\?v=[0-9a-f]+)?`, "g");
+  const versions = new Map();
+  for (const [, , file] of readme.matchAll(pattern)) {
+    if (versions.has(file)) continue;
+    const content = await readFile(join(OUT, file)).catch(() => null);
+    versions.set(file, content ? createHash("sha1").update(content).digest("hex").slice(0, 10) : null);
+  }
+  return readme.replace(pattern, (match, url, file) => (versions.get(file) ? `${url}?v=${versions.get(file)}` : match));
+}
+
+async function updateReadme(edit) {
   const readme = await readFile(README, "utf8");
-  const start = readme.indexOf(WRITING_START);
-  const end = readme.indexOf(WRITING_END);
-  if (start < 0 || end < start) throw new Error(`README.md needs the ${WRITING_START} and ${WRITING_END} markers`);
-  const next = `${readme.slice(0, start + WRITING_START.length)}\n${writingBlock(posts)}\n${readme.slice(end)}`;
+  const next = await stampImageVersions(edit(readme));
   if (next !== readme) await writeFile(README, next);
 }
+
+const projectsBlock = () => pictureBlock(PROFILE.projects.map((item) =>
+  pictureLink(`https://github.com/${item.owner ?? PROFILE.login}/${item.repo}`, `card-${item.repo.toLowerCase()}`, `${item.title}: ${item.blurb}`)));
+
+const writingBlock = (posts) => pictureBlock(posts.map((post, i) =>
+  pictureLink(post.url, `post-${i + 1}`, `${post.title} (${formatDate(post.date)})`)));
 
 async function refreshWriting() {
   let posts;
@@ -831,14 +869,13 @@ async function refreshWriting() {
   } catch (err) {
     // A Medium outage should not block the GitHub cards; yesterday's posts stay up.
     console.warn(`Medium feed unavailable, keeping existing posts: ${err.message}`);
-    return;
+    return null;
   }
-  await emit("post-1", (t) => renderFeaturedPost(t, posts[0]));
-  for (const [i, post] of posts.slice(1).entries()) {
-    await emit(`post-${i + 2}`, (t) => renderPostCard(t, post, i + 1));
+  for (const [i, post] of posts.entries()) {
+    await emit(`post-${i + 1}`, (t) => renderPost(t, post, i));
   }
-  await updateReadme(posts);
   console.log(`Writing: ${posts.length} posts, latest "${posts[0].title}".`);
+  return posts;
 }
 
 // ---------------------------------------------------------------- main
@@ -852,25 +889,26 @@ async function emit(name, render) {
 await mkdir(OUT, { recursive: true });
 await emit("header", renderHeader);
 await emit("stack", renderStack);
-await refreshWriting();
+const posts = await refreshWriting();
 
 let data;
 try {
   data = await loadData();
 } catch (err) {
-  // Keep the previously committed images rather than publishing broken ones.
+  // Keep the previously committed cards rather than publishing broken ones.
   console.error(`Live data unavailable, keeping existing cards: ${err.message}`);
+  await updateReadme((readme) => (posts ? replaceBlock(readme, "MEDIUM", writingBlock(posts)) : readme));
   process.exit(process.env.CI ? 1 : 0);
 }
 
-for (const item of PROFILE.flagship) {
+for (const item of PROFILE.projects) {
   const repo = await findRepo(data, item);
-  await emit(`card-${item.repo.toLowerCase()}`, (t) => renderFlagship(t, item, repo));
-}
-for (const item of PROFILE.featured) {
-  const repo = await findRepo(data, item);
-  await emit(`card-${item.repo.toLowerCase()}`, (t) => renderCard(t, item, repo));
+  await emit(`card-${item.repo.toLowerCase()}`, (t) => renderProject(t, item, repo));
 }
 await emit("activity", (t) => renderActivity(t, data));
+await updateReadme((readme) => {
+  const withProjects = replaceBlock(readme, "PROJECTS", projectsBlock());
+  return posts ? replaceBlock(withProjects, "MEDIUM", writingBlock(posts)) : withProjects;
+});
 
 console.log(`Done: ${fmt(data.contributions.total)} contributions, ${data.stars} stars, ${data.repos.size} repos.`);

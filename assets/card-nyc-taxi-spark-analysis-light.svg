@@ -1,19 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="490" height="184" viewBox="0 0 490 184" role="img" aria-label="NYC Taxi Spark Analysis: A team project on about 20M NYC taxi trips, where three Spark optimizations cut run time by 24–42%.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="196" viewBox="0 0 1000 196" role="img" aria-label="NYC Taxi Spark Analysis: A team project on about 20M NYC taxi trips, where three Spark optimizations cut run time by 24–42%.">
 <title>NYC Taxi Spark Analysis: A team project on about 20M NYC taxi trips, where three Spark optimizations cut run time by 24–42%.</title>
 
-<rect x="0.5" y="0.5" width="489" height="183" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
-<rect x="20" y="20" width="48" height="48" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
-<rect x="26" y="26" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.12"/><rect x="33.4" y="26" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.40"/><rect x="40.8" y="26" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.35"/><rect x="48.2" y="26" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.30"/><rect x="55.6" y="26" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.12"/><rect x="26" y="33.4" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.37"/><rect x="33.4" y="33.4" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.55"/><rect x="40.8" y="33.4" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.52"/><rect x="48.2" y="33.4" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.35"/><rect x="55.6" y="33.4" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.24"/><rect x="26" y="40.8" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.48"/><rect x="33.4" y="40.8" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.72"/><rect x="40.8" y="40.8" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.99"/><rect x="48.2" y="40.8" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.51"/><rect x="55.6" y="40.8" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.25"/><rect x="26" y="48.2" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.39"/><rect x="33.4" y="48.2" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.59"/><rect x="40.8" y="48.2" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.62"/><rect x="48.2" y="48.2" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.48"/><rect x="55.6" y="48.2" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.23"/><rect x="26" y="55.6" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.29"/><rect x="33.4" y="55.6" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.35"/><rect x="40.8" y="55.6" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.47"/><rect x="48.2" y="55.6" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.35"/><rect x="55.6" y="55.6" width="6.2" height="6.2" rx="1.2" fill="#0891b2" opacity="0.12"/>
-<text x="84" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1f2328">NYC Taxi Spark Analysis</text>
-<text x="84" y="62" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#57606a">HandlingDataLargeSetLabProject/NYC-Taxi-Spark-…</text>
+<rect x="0.5" y="0.5" width="999" height="195" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
+<rect x="16" y="16" width="256" height="164" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
+<rect x="34.0" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.23" begin="0.93s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.50" begin="0.85s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.49" begin="0.80s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.56" begin="0.78s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.40" begin="0.80s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.38" begin="0.85s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.30" begin="0.93s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.16" begin="1.03s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.15s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.27s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="34.0" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.40s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.41" begin="0.77s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.72" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.60" begin="0.58s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.65" begin="0.55s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.59" begin="0.58s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.48" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.39" begin="0.77s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.34" begin="0.89s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.25" begin="1.03s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.16" begin="1.16s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="52.9" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.31s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.60" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.74" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.73" begin="0.39s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.81" begin="0.32s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.85" begin="0.39s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.82" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.59" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.39" begin="0.81s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.32" begin="0.96s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.22" begin="1.11s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="71.7" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.26s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.54" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.70" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.95" begin="0.39s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.97" begin="0.32s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.84" begin="0.39s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.83" begin="0.52s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.52" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.46" begin="0.81s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.43" begin="0.96s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.16" begin="1.11s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="90.6" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.26s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.60" begin="0.77s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.58" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.74" begin="0.58s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.65" begin="0.55s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.70" begin="0.58s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.63" begin="0.66s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.53" begin="0.77s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.48" begin="0.89s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.26" begin="1.03s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.19" begin="1.16s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="109.4" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.31s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.48" begin="0.93s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.53" begin="0.85s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.45" begin="0.80s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.48" begin="0.78s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.44" begin="0.80s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.41" begin="0.85s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.24" begin="0.93s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.17" begin="1.03s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.27" begin="1.15s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.17" begin="1.27s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="128.3" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.40s" dur="0.4s" fill="freeze"/></rect>
+<rect x="34.0" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.21" begin="1.12s" dur="0.4s" fill="freeze"/></rect>
+<rect x="54.4" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.26" begin="1.06s" dur="0.4s" fill="freeze"/></rect>
+<rect x="74.7" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.33" begin="1.02s" dur="0.4s" fill="freeze"/></rect>
+<rect x="95.1" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.28" begin="1.01s" dur="0.4s" fill="freeze"/></rect>
+<rect x="115.5" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.16" begin="1.02s" dur="0.4s" fill="freeze"/></rect>
+<rect x="135.8" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.20" begin="1.06s" dur="0.4s" fill="freeze"/></rect>
+<rect x="156.2" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.23" begin="1.12s" dur="0.4s" fill="freeze"/></rect>
+<rect x="176.5" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.11" begin="1.21s" dur="0.4s" fill="freeze"/></rect>
+<rect x="196.9" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.30s" dur="0.4s" fill="freeze"/></rect>
+<rect x="217.3" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.41s" dur="0.4s" fill="freeze"/></rect>
+<rect x="237.6" y="147.1" width="16.4" height="14.9" rx="2.5" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="0.10" begin="1.52s" dur="0.4s" fill="freeze"/></rect>
+<text x="300" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.4" fill="#1f2328">NYC Taxi Spark Analysis</text>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">
-  <path transform="translate(438 30)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
-  <text x="468" y="42" text-anchor="end">0</text>
+  <path transform="translate(942 38)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
+  <text x="972" y="50" text-anchor="end">0</text>
 </g>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a">
-  <text x="22" y="104">A team project on about 20M NYC taxi trips, where three</text>
-  <text x="22" y="126">Spark optimizations cut run time by 24–42%.</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#57606a">
+  <text x="300" y="90">A team project on about 20M NYC taxi trips, where three Spark</text>
+  <text x="300" y="115">optimizations cut run time by 24–42%.</text>
 </g>
-<circle cx="28" cy="157" r="6" fill="#3572A5"/>
-<text x="40" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
+<text x="300" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">Team project   ·   PySpark + Spark SQL   ·   ~20M trips</text>
+<circle cx="306" cy="169" r="6" fill="#3572A5"/>
+<text x="318" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
+<text x="972" y="174" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">HandlingDataLargeSetLabProject/NYC-Taxi-Spark-Analysis</text>
 </svg>

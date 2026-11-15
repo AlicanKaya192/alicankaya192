@@ -1,34 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" role="img" aria-label="Odyssey: An offline desktop app that teaches data science and ML through lessons, quizzes and exercises that check your code.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="196" viewBox="0 0 1000 196" role="img" aria-label="Odyssey: An offline desktop app that teaches data science and ML through lessons, quizzes and exercises that check your code.">
 <title>Odyssey: An offline desktop app that teaches data science and ML through lessons, quizzes and exercises that check your code.</title>
 
-<rect x="0.5" y="0.5" width="999" height="203" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
-<rect x="16" y="16" width="256" height="172" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
-<path d="M42.0 154.0 L67.5 156.1 L93.0 126.9 L118.5 105.8 L144.0 113.9 L169.5 106.4 L195.0 73.7 L220.5 63.1 L246.0 72.0" fill="none" stroke="#d5dee7" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/>
-<path d="M42.0 154.0 L67.5 156.1 L93.0 126.9 L118.5 105.8 L144.0 113.9 L169.5 106.4 L195.0 73.7" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round"/>
-<circle cx="42.0" cy="154.0" r="7" fill="#0891b2"/>
-<circle cx="67.5" cy="156.1" r="7" fill="#0891b2"/>
-<circle cx="93.0" cy="126.9" r="7" fill="#0891b2"/>
-<circle cx="118.5" cy="105.8" r="7" fill="#0891b2"/>
-<circle cx="144.0" cy="113.9" r="7" fill="#0891b2"/>
-<circle cx="169.5" cy="106.4" r="7" fill="#0891b2"/>
-<circle cx="195.0" cy="73.7" r="8" fill="#16a34a"/>
-<circle cx="195.0" cy="73.7" r="8" fill="none" stroke="#16a34a" stroke-width="2">
+<rect x="0.5" y="0.5" width="999" height="195" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
+<rect x="16" y="16" width="256" height="164" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
+<path d="M42.0 146.0 L67.5 149.1 L93.0 120.9 L118.5 100.8 L144.0 109.9 L169.5 103.4 L195.0 71.7 L220.5 62.1 L246.0 72.0" fill="none" stroke="#d5dee7" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M42.0 146.0 L67.5 149.1 L93.0 120.9 L118.5 100.8 L144.0 109.9 L169.5 103.4 L195.0 71.7" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round"/>
+<circle cx="42.0" cy="146.0" r="7" fill="#0891b2"/>
+<circle cx="67.5" cy="149.1" r="7" fill="#0891b2"/>
+<circle cx="93.0" cy="120.9" r="7" fill="#0891b2"/>
+<circle cx="118.5" cy="100.8" r="7" fill="#0891b2"/>
+<circle cx="144.0" cy="109.9" r="7" fill="#0891b2"/>
+<circle cx="169.5" cy="103.4" r="7" fill="#0891b2"/>
+<circle cx="195.0" cy="71.7" r="8" fill="#16a34a"/>
+<circle cx="195.0" cy="71.7" r="8" fill="none" stroke="#16a34a" stroke-width="2">
   <animate attributeName="r" values="8;17;8" dur="2.4s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0.9;0;0.9" dur="2.4s" repeatCount="indefinite"/>
 </circle>
-<circle cx="220.5" cy="63.1" r="6" fill="#edf2f6" stroke="#57606a" stroke-width="2"/>
+<circle cx="220.5" cy="62.1" r="6" fill="#edf2f6" stroke="#57606a" stroke-width="2"/>
 <circle cx="246.0" cy="72.0" r="6" fill="#edf2f6" stroke="#57606a" stroke-width="2"/>
-<text x="300" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#1f2328">Odyssey</text>
+<text x="300" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.4" fill="#1f2328">Odyssey</text>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">
-  <path transform="translate(942 40)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
-  <text x="972" y="52" text-anchor="end">7</text>
+  <path transform="translate(942 38)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
+  <text x="972" y="50" text-anchor="end">7</text>
 </g>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#57606a">
-  <text x="300" y="94">An offline desktop app that teaches data science and ML through lessons,</text>
-  <text x="300" y="119">quizzes and exercises that check your code.</text>
+  <text x="300" y="90">An offline desktop app that teaches data science and ML through lessons,</text>
+  <text x="300" y="115">quizzes and exercises that check your code.</text>
 </g>
-<text x="300" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">Runs offline   ·   Built with PySide6   ·   Open source</text>
-<circle cx="306" cy="179" r="6" fill="#3572A5"/>
-<text x="318" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
-<text x="972" y="184" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">AlicanKaya192/Odyssey</text>
+<text x="300" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">Runs offline   ·   Built with PySide6   ·   Open source</text>
+<circle cx="306" cy="169" r="6" fill="#3572A5"/>
+<text x="318" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
+<text x="972" y="174" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">AlicanKaya192/Odyssey</text>
 </svg>

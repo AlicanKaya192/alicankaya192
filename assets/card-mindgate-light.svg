@@ -1,40 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" role="img" aria-label="Mindgate: Python hooks stop Claude Code before it runs a dangerous command, writes to a protected file or opens an unapproved site.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="196" viewBox="0 0 1000 196" role="img" aria-label="Mindgate: Python hooks stop Claude Code before it runs a dangerous command, writes to a protected file or opens an unapproved site.">
 <title>Mindgate: Python hooks stop Claude Code before it runs a dangerous command, writes to a protected file or opens an unapproved site.</title>
 
-<rect x="0.5" y="0.5" width="999" height="203" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
-<rect x="16" y="16" width="256" height="172" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
+<rect x="0.5" y="0.5" width="999" height="195" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
+<rect x="16" y="16" width="256" height="164" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
 <line x1="38" y1="48.0" x2="210" y2="48.0" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
 <circle cy="48.0" r="5" fill="#16a34a">
   <animate attributeName="cx" values="38;169.6;210" keyTimes="0;0.55;1" dur="3.2s" begin="0.0s" repeatCount="indefinite"/>
 </circle>
 <text x="222" y="53.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#16a34a">allow</text>
-<line x1="38" y1="84.0" x2="210" y2="84.0" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
-<circle cy="84.0" r="5" fill="#b45309">
+<line x1="38" y1="81.3" x2="210" y2="81.3" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
+<circle cy="81.3" r="5" fill="#b45309">
   <animate attributeName="cx" values="38;169.6;210" keyTimes="0;0.55;1" dur="3.2s" begin="0.8s" repeatCount="indefinite"/>
 </circle>
-<text x="222" y="89.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#b45309">ask</text>
-<line x1="38" y1="120.0" x2="210" y2="120.0" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
-<circle cy="120.0" r="5" fill="#dc2626">
+<text x="222" y="86.3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#b45309">ask</text>
+<line x1="38" y1="114.7" x2="210" y2="114.7" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
+<circle cy="114.7" r="5" fill="#dc2626">
   <animate attributeName="cx" values="38;161.6;161.6" keyTimes="0;0.55;1" dur="3.2s" begin="1.6s" repeatCount="indefinite"/>
 </circle>
-<text x="222" y="125.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#dc2626">deny</text>
-<line x1="38" y1="156.0" x2="210" y2="156.0" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
-<circle cy="156.0" r="5" fill="#16a34a">
+<text x="222" y="119.7" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#dc2626">deny</text>
+<line x1="38" y1="148.0" x2="210" y2="148.0" stroke="#d5dee7" stroke-width="2" stroke-dasharray="2 5"/>
+<circle cy="148.0" r="5" fill="#16a34a">
   <animate attributeName="cx" values="38;169.6;210" keyTimes="0;0.55;1" dur="3.2s" begin="2.4s" repeatCount="indefinite"/>
 </circle>
-<text x="222" y="161.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#16a34a">allow</text>
-<rect x="165.6" y="32" width="8" height="140" rx="4" fill="#0e7490"/>
-<text x="300" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#1f2328">Mindgate</text>
+<text x="222" y="153.0" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#16a34a">allow</text>
+<rect x="165.6" y="32" width="8" height="132" rx="4" fill="#0e7490"/>
+<text x="300" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.4" fill="#1f2328">Mindgate</text>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">
-  <path transform="translate(942 40)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
-  <text x="972" y="52" text-anchor="end">2</text>
+  <path transform="translate(942 38)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
+  <text x="972" y="50" text-anchor="end">2</text>
 </g>
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#57606a">
-  <text x="300" y="94">Python hooks stop Claude Code before it runs a dangerous command, writes to</text>
-  <text x="300" y="119">a protected file or opens an unapproved site.</text>
+  <text x="300" y="90">Python hooks stop Claude Code before it runs a dangerous command, writes</text>
+  <text x="300" y="115">to a protected file or opens an unapproved site.</text>
 </g>
-<text x="300" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">v1.2.1   ·   MIT license   ·   English and Turkish</text>
-<circle cx="306" cy="179" r="6" fill="#3572A5"/>
-<text x="318" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
-<text x="972" y="184" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">AlicanKaya192/Mindgate</text>
+<text x="300" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">v1.2.1   ·   MIT license   ·   English and Turkish</text>
+<circle cx="306" cy="169" r="6" fill="#3572A5"/>
+<text x="318" y="174" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Python</text>
+<text x="972" y="174" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">AlicanKaya192/Mindgate</text>
 </svg>
