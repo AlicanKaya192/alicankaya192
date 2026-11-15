@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build images
+      - name: Build images and latest posts
         run: node scripts/build-profile.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,11 +37,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
+          git add assets README.md
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "Refresh profile images"
+            git commit -m "Refresh profile images and posts"
             git pull --rebase
             git push
           fi

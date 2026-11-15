@@ -1,20 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="172" viewBox="0 0 420 172" role="img" aria-label="Data Science Roadmap: 22-module, end-to-end path from Python fundamentals to reinforcement learning, with executed notebooks and review questions.">
-<title>Data Science Roadmap: 22-module, end-to-end path from Python fundamentals to reinforcement learning, with executed notebooks and review questions.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" role="img" aria-label="Data Science Roadmap: A 22-module path from Python basics to reinforcement learning, with executed notebooks and PDF review questions, written in Turkish.">
+<title>Data Science Roadmap: A 22-module path from Python basics to reinforcement learning, with executed notebooks and PDF review questions, written in Turkish.</title>
 
-<rect x="0.5" y="0.5" width="419" height="171" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
-<path transform="translate(20 21)" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z" fill="#59636e"/>
-<text x="44" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#1f2328">Data Science Roadmap</text>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e">
-  <path transform="translate(364 22) scale(0.875)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#59636e"/>
-  <text x="400" y="34" text-anchor="end">58</text>
+<rect x="0.5" y="0.5" width="999" height="203" rx="14" fill="#f7f9fb" stroke="#d0d9e2"/>
+<rect x="16" y="16" width="256" height="172" rx="10" fill="#edf2f6" stroke="#d0d9e2"/>
+<path d="M43.5 74.5 L63.6 74.5 L83.7 74.5 L103.8 74.5 L123.9 74.5 L144.0 74.5 L164.1 74.5 L184.2 74.5 L204.3 74.5 L224.4 74.5 L244.5 74.5 L244.5 129.5 L224.4 129.5 L204.3 129.5 L184.2 129.5 L164.1 129.5 L144.0 129.5 L123.9 129.5 L103.8 129.5 L83.7 129.5 L63.6 129.5 L43.5 129.5" fill="none" stroke="#d5dee7" stroke-width="3" stroke-linejoin="round"/>
+<rect x="36.0" y="67.0" width="15" height="15" rx="4" fill="#0891b2" opacity="0"><animate attributeName="opacity" to="1" begin="0.20s" dur="0.3s" fill="freeze"/></rect>
+<rect x="56.1" y="67.0" width="15" height="15" rx="4" fill="#0992ad" opacity="0"><animate attributeName="opacity" to="1" begin="0.26s" dur="0.3s" fill="freeze"/></rect>
+<rect x="76.2" y="67.0" width="15" height="15" rx="4" fill="#0993a8" opacity="0"><animate attributeName="opacity" to="1" begin="0.32s" dur="0.3s" fill="freeze"/></rect>
+<rect x="96.3" y="67.0" width="15" height="15" rx="4" fill="#0a94a3" opacity="0"><animate attributeName="opacity" to="1" begin="0.38s" dur="0.3s" fill="freeze"/></rect>
+<rect x="116.4" y="67.0" width="15" height="15" rx="4" fill="#0b949e" opacity="0"><animate attributeName="opacity" to="1" begin="0.44s" dur="0.3s" fill="freeze"/></rect>
+<rect x="136.5" y="67.0" width="15" height="15" rx="4" fill="#0b9599" opacity="0"><animate attributeName="opacity" to="1" begin="0.50s" dur="0.3s" fill="freeze"/></rect>
+<rect x="156.6" y="67.0" width="15" height="15" rx="4" fill="#0c9694" opacity="0"><animate attributeName="opacity" to="1" begin="0.56s" dur="0.3s" fill="freeze"/></rect>
+<rect x="176.7" y="67.0" width="15" height="15" rx="4" fill="#0d978f" opacity="0"><animate attributeName="opacity" to="1" begin="0.62s" dur="0.3s" fill="freeze"/></rect>
+<rect x="196.8" y="67.0" width="15" height="15" rx="4" fill="#0d988a" opacity="0"><animate attributeName="opacity" to="1" begin="0.68s" dur="0.3s" fill="freeze"/></rect>
+<rect x="216.9" y="67.0" width="15" height="15" rx="4" fill="#0e9985" opacity="0"><animate attributeName="opacity" to="1" begin="0.74s" dur="0.3s" fill="freeze"/></rect>
+<rect x="237.0" y="67.0" width="15" height="15" rx="4" fill="#0f9a80" opacity="0"><animate attributeName="opacity" to="1" begin="0.80s" dur="0.3s" fill="freeze"/></rect>
+<rect x="237.0" y="122.0" width="15" height="15" rx="4" fill="#0f9a7c" opacity="0"><animate attributeName="opacity" to="1" begin="0.86s" dur="0.3s" fill="freeze"/></rect>
+<rect x="216.9" y="122.0" width="15" height="15" rx="4" fill="#109b77" opacity="0"><animate attributeName="opacity" to="1" begin="0.92s" dur="0.3s" fill="freeze"/></rect>
+<rect x="196.8" y="122.0" width="15" height="15" rx="4" fill="#119c72" opacity="0"><animate attributeName="opacity" to="1" begin="0.98s" dur="0.3s" fill="freeze"/></rect>
+<rect x="176.7" y="122.0" width="15" height="15" rx="4" fill="#119d6d" opacity="0"><animate attributeName="opacity" to="1" begin="1.04s" dur="0.3s" fill="freeze"/></rect>
+<rect x="156.6" y="122.0" width="15" height="15" rx="4" fill="#129e68" opacity="0"><animate attributeName="opacity" to="1" begin="1.10s" dur="0.3s" fill="freeze"/></rect>
+<rect x="136.5" y="122.0" width="15" height="15" rx="4" fill="#139f63" opacity="0"><animate attributeName="opacity" to="1" begin="1.16s" dur="0.3s" fill="freeze"/></rect>
+<rect x="116.4" y="122.0" width="15" height="15" rx="4" fill="#13a05e" opacity="0"><animate attributeName="opacity" to="1" begin="1.22s" dur="0.3s" fill="freeze"/></rect>
+<rect x="96.3" y="122.0" width="15" height="15" rx="4" fill="#14a059" opacity="0"><animate attributeName="opacity" to="1" begin="1.28s" dur="0.3s" fill="freeze"/></rect>
+<rect x="76.2" y="122.0" width="15" height="15" rx="4" fill="#15a154" opacity="0"><animate attributeName="opacity" to="1" begin="1.34s" dur="0.3s" fill="freeze"/></rect>
+<rect x="56.1" y="122.0" width="15" height="15" rx="4" fill="#15a24f" opacity="0"><animate attributeName="opacity" to="1" begin="1.40s" dur="0.3s" fill="freeze"/></rect>
+<rect x="36.0" y="122.0" width="15" height="15" rx="4" fill="#16a34a" opacity="0"><animate attributeName="opacity" to="1" begin="1.46s" dur="0.3s" fill="freeze"/></rect>
+<g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">
+  <text x="36" y="56.5">01</text>
+  <text x="36.0" y="159.5">22</text>
 </g>
-<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="13" fill="#59636e">
-  <text x="20" y="66">22-module, end-to-end path from Python fundamentals to</text>
-  <text x="20" y="86">reinforcement learning, with executed notebooks and</text>
-  <text x="20" y="106">review questions.</text>
+<text x="300" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="-0.5" fill="#1f2328">Data Science Roadmap</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">
+  <path transform="translate(934 40)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#57606a"/>
+  <text x="972" y="52" text-anchor="end">58</text>
 </g>
-<circle cx="26" cy="147" r="6" fill="#DA5B0B"/>
-<text x="38" y="151" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12" fill="#59636e">Jupyter Notebook</text>
-<rect x="162.4" y="137" width="29.2" height="20" rx="10" fill="#ffffff" stroke="#d1d9e0"/><text x="177" y="151" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">ML</text>
-<rect x="197.60000000000002" y="137" width="82" height="20" rx="10" fill="#ffffff" stroke="#d1d9e0"/><text x="238.60000000000002" y="151" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">statistics</text>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#57606a">
+  <text x="300" y="94">A 22-module path from Python basics to reinforcement learning, with</text>
+  <text x="300" y="119">executed notebooks and PDF review questions, written in Turkish.</text>
+</g>
+<text x="300" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#0e7490">Python to RL   ·   PDF review questions   ·   In Turkish</text>
+<circle cx="306" cy="179" r="6" fill="#DA5B0B"/>
+<text x="318" y="184" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a">Jupyter Notebook</text>
+<text x="972" y="184" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#57606a">AlicanKaya192/Data-Science-RoadMap</text>
 </svg>
