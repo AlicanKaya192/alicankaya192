@@ -18,7 +18,7 @@
 
 ## About
 
-I'm a computer science undergraduate in Türkiye, and my goal is to become a good AI engineer. I like taking a messy dataset and following it through to a clear answer. I turn what I learn into open resources in Turkish and English, and I write about data and AI on [Medium](https://medium.com/@alicankaya268).
+I'm a computer science undergraduate in Poland, and my goal is to become a good AI engineer. I like taking a messy dataset and following it through to a clear answer. I turn what I learn into open resources in Turkish and English, and I write about data and AI on [Medium](https://medium.com/@alicankaya268).
 
 - Data science, ML and software overlap in my work. Python handles data and models, C# and .NET the apps.
 - I build with Claude Code, and I wrote my own tool to limit what AI assistants can do on a computer.
